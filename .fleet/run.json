@@ -2,10 +2,10 @@
     "configurations": [
         {
             "type": "go",
-            "name": "run set",
+            "name": "run",
             "goExecPath": "$USER_HOME$/sdk/go1.20.1/bin/go",
             "workingDir": "./cmd/main/",
-            "buildParams": [],
-        },
+            "buildParams": []
+        }
     ]
 }
