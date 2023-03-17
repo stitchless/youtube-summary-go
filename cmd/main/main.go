@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-	VideoURL := "https://www.youtube.com/watch?v=XmD1bUMC4lk"
+	VideoURL := "https://www.youtube.com/watch?v=GnTKxPQfHRM"
 
 	client := youtube.Client{}
 
@@ -156,6 +156,7 @@ func main() {
 		},
 	)
 	if err != nil {
+		fmt.Println(err)
 		return
 	}
 
